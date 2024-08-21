@@ -11,3 +11,6 @@ export _JAVA_OPTIONS=\
 -Dhttp.proxyHost=myproxy.company.com \
 -Dhttp.proxyPort=8080 \
 -Dhttps.nonProxyHosts="localhost|127.0.0.0/8|*.company.com"
+```
+
+1. To get the issuer-uri and audience-id needed in properties, please follow instruction here => https://github.com/jacflesher/EntraIDRegistration
