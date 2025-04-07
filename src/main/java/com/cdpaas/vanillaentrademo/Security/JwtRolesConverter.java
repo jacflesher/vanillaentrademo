@@ -20,7 +20,7 @@ public class JwtRolesConverter implements Converter<Jwt, AbstractAuthenticationT
     protected static String rolesAuthorityPrefix = "ROLE_";
 
     public JwtRolesConverter() {
-        log.debug("*** Using Ford Cloud Native JwtRolesConverter ***");
+        log.debug("*** Using JwtRolesConverter ***");
     }
 
     @Override
